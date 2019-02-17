@@ -1,0 +1,20 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>gas valve</h1>
+    <table border = 1>
+         {% for key, value in param.items() %}
+            <tr>
+		    <th> <font size="25"> {{ key }} </font> </th>
+		    <td> <font size="35"> {{ value }}</font> </td>
+	       <img src={{ value }} width=800px, height=1200px >
+ 	     </tr>
+         {% endfor %}
+      </table>
+
+
+  </body>
+
+</html>
